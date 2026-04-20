@@ -21,6 +21,7 @@ Options:
   --no-backup
   --quiet
   --lenient
+  -----> source coming soon
 `);
   process.exit(0);
 }
@@ -39,6 +40,9 @@ if (!fs.existsSync(inputFile)) {
 }
 
 const rest = args.slice(1).join(" ");
+//const rest = args.slice(1).join(" ");
+//const rest = args.slice(1).map(a => `"${a}"`).join(" ");
+//for source update
 const script = path.join(__dirname, "bob_the_builder.sh");
 
 try {
