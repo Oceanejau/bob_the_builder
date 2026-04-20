@@ -39,13 +39,13 @@ Ton architecture devient un simple fichier texte facile à maintenir.
 ### Utilisation directe (recommandé)
 ```bash
 npx @oceanejau/bob_the_builder archi.txt
-```
+
 
 ```markdown
 ### Installation globale
 ```bash
 npm install -g @oceanejau/bob_the_builder
-```
+
 
 ```markdown
 ---
@@ -54,13 +54,13 @@ npm install -g @oceanejau/bob_the_builder
 
 ```bash
 bob_the_builder <architecture.txt> [dest]
-```
+
 
 ```markdown
 ### Exemple :
 ```bash
 bob_the_builder archi.txt ./my-project
-```
+
 
 ```markdown
 ---
