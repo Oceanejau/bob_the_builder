@@ -1,16 +1,72 @@
-## Indentation modes
+🚀 Bob The Builder CLI
 
-### Default (strict)
-- 2 spaces = 1 level
-- safer and predictable
+Génère instantanément une architecture de projet à partir d’un simple fichier texte.
 
-### Lenient mode
-Use:
+🎯 C’est quoi ?
 
-bob_the_builder archi.txt ./out --lenient
+Un CLI ultra simple qui transforme ça :
 
-- accepts any number of spaces
-- accepts tabs
-- deduces structure automatically
+src
+  index.js
+  utils
+    helper.js
 
-⚠️ Use this when copying structures from ChatGPT or messy input
+en :
+
+src/
+├── index.js
+└── utils/
+    └── helper.js
+⚡ Installation
+npx @oceanejau/bob_the_builder archi.txt
+
+ou global :
+
+npm install -g @oceanejau/bob_the_builder
+🚀 Usage
+bob_the_builder <architecture.txt> [dest]
+Exemple :
+bob_the_builder archi.txt ./my-project
+🔧 Options
+Option	Description
+--preview	Affiche sans créer
+--dry-run	Simulation
+--force	Overwrite auto
+--y	Skip confirmations
+--keep-backup	Garde backup
+--no-backup	Désactive backup
+--quiet	Mode silencieux
+--lenient	Indentation flexible
+--source=chatgpt	Tag génération IA
+🧪 Tests
+./test.sh
+
+✔️ couvre :
+
+nested dirs
+overwrite
+backup
+edge cases
+indentation
+🧠 Pourquoi c’est utile ?
+⚡ bootstrap rapide
+🧹 zéro boilerplate manuel
+📁 lisible et versionnable
+🧪 testable facilement
+📦 Exemple complet
+backend
+  app.js
+frontend
+  index.html
+
+➡️
+
+backend/app.js
+frontend/index.html
+📜 License
+
+MIT
+
+⭐ Support
+
+Si ça t’aide → mets une étoile ⭐

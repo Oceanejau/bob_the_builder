@@ -30,6 +30,8 @@ if [[ "$1" == "--help" || "$1" == "-h" ]]; then
   echo "  --no-backup"
   echo "  --quiet"
   echo "  --lenient"
+  echo "  --source chatgpt"
+  echo " --source claude"
   exit 0
 fi
 
@@ -46,7 +48,7 @@ is_file() {
 }
 
 usage() {
-  echo "Usage: $0 <architecture.txt> [dest] [--preview] [--force] [--dry-run] [--y] [--keep-backup] [--no-backup] [--quiet] [--lenient]"
+  echo "Usage: $0 <architecture.txt> [dest] [--preview] [--force] [--dry-run] [--y] [--keep-backup] [--no-backup] [--quiet] [--lenient] [--source chatgpt] [--source claude]"
   exit 1
 }
 
