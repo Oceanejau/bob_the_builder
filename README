@@ -1,0 +1,16 @@
+## Indentation modes
+
+### Default (strict)
+- 2 spaces = 1 level
+- safer and predictable
+
+### Lenient mode
+Use:
+
+bob_the_builder archi.txt ./out --lenient
+
+- accepts any number of spaces
+- accepts tabs
+- deduces structure automatically
+
+⚠️ Use this when copying structures from ChatGPT or messy input

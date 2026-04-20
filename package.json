@@ -1,0 +1,22 @@
+{
+  "name": "@oceanejau/bob_the_builder",
+  "version": "1.0.7",
+  "description": "Simple CLI to generate project architecture from text",
+  "bin": {
+    "bob_the_builder": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "architecture"
+  ],
+  "author": {
+    "name": "oceanejau"
+  },
+  "license": "MIT",
+  "files": [
+    "bob_the_builder.sh",
+    "index.js",
+    "README.md"
+  ]
+}
