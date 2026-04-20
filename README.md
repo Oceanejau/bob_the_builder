@@ -64,8 +64,8 @@ bob_the_builder fichier.txt ./my-project
 
 ## 🎮 **Exemple**
 
-### Input :
-```txt
+### Input txt:
+```
 src
   index.js
   utils
@@ -73,11 +73,11 @@ src
 ```
 
 ### Output :
-```bash
+```
 src/
 ├── index.js
 └── utils/
-└── helper.js
+    └── helper.js
 ```
 
 ---
@@ -142,9 +142,10 @@ frontend/index.html
 
 ---
 
-## 📜 **License**
+## 📜 **Licence**
 
-MIT
+Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
 
 ---
 
